@@ -1,0 +1,13 @@
+public class IncorrectWhileCondition { 
+ public static void main(String[] args) { 
+ int count = 5; 
+ while (count = 0) { 
+ System.out.println(count); 
+ count--; 
+ } 
+ } 
+} 
+// Error to investigate: Why does the loop not execute as expected? What is the issue with the condition in the `while` loop?
+
+Answer->1.Assignment (=) instead of Comparison (==).
+2.Even after fixing syntax, count == 0 is false from the start, so the loop never runs.

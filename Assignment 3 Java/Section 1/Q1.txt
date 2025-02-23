@@ -1,0 +1,11 @@
+public class InfiniteForLoop { 
+ public static void main(String[] args) { 
+ for (int i = 0; i < 10; i--) { 
+ System.out.println(i); 
+ } 
+ } 
+} 
+// Error to investigate: Why does this loop run infinitely? How should the loop control variable be adjusted?
+Answer->
+1.The loop control variable i is being decremented (i--).The condition i < 10 always remains true because Initially, i = 0, which is less than 10 → Condition true.i-- decreases i to -1, -2, -3... (continuing infinitely).Since i will always be less than 10, the loop never terminates.
+2.for (int i = 10; i > 0; i--) // i decreases, terminates when i reaches 0.

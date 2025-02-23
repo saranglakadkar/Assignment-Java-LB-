@@ -1,0 +1,14 @@
+public class OffByOneDoWhileLoop { 
+ public static void main(String[] args) { 
+ int num = 1; 
+ do { 
+ System.out.println(num); 
+ num--; 
+ } while (num > 0); 
+ } 
+} 
+// Error to investigate: Why does this loop print unexpected numbers? What adjustments are needed to print the 
+numbers from 1 to 5?
+Answer->
+1.Currently, the loop prints only 1 because num is decremented (num--).
+2.To print 1 to 5, increment (num++) instead of decrementing.
