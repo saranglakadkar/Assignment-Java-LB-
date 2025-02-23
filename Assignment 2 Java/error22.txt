@@ -1,0 +1,12 @@
+public class Main { 
+ public static void main(String[] args) { 
+ static void displayMessage() { 
+ System.out.println("Message"); 
+ } 
+ } 
+} 
+
+
+Q.What syntax error occurs? Can a method be declared inside another method?
+->1.Yes, there is a syntax error because the method displayMessage() is declared inside the main() method, which is not allowed in Java.
+2.No, Java does not support method declarations inside other methods. All methods must be declared at the class level, not within another method

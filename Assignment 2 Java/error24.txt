@@ -1,0 +1,23 @@
+public class MissingBreakCase { 
+ public static void main(String[] args) { 
+ int level = 1; 
+ switch(level) { 
+ case 1: 
+ System.out.println("Level 1"); 
+ case 2: 
+ System.out.println("Level 2"); 
+ case 3: 
+ System.out.println("Level 3"); 
+ default: 
+ System.out.println("Unknown level"); 
+ } 
+ } 
+} 
+
+
+Q. Error to Investigate: When level is 1, why does it print "Level 1", "Level 2", "Level 3", and 
+"Unknown level"? What is the role of the break statement in this situation?
+
+->
+1.In the given switch-case statement, there are no break statements after each case. In Java, switch cases execute sequentially unless a break statement is used.
+2.The break statement prevents fall-through by stopping execution after a matching case. Without break, all cases after the matching one execute sequentially until the end of the switch block.

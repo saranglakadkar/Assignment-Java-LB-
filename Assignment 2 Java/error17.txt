@@ -1,0 +1,17 @@
+
+public class Main { 
+ public static void main(String[] args) { 
+ int a = 10; 
+ int b = 5; 
+ int result = a ** b; 
+ System.out.println(result); 
+ } 
+} 
+
+*/
+Q17. What compilation error occurs? Why is the ** operator not valid in Java?
+Answer->The code will not compile due to the usage of the ** operator. Java does not support the ** operator for exponentiation.
+1.In Java, the ** operator is not defined for exponentiation, which is why you encounter a compilation error.
+2.Java uses standard mathematical operators for basic arithmetic operations like addition (+), subtraction (-), multiplication (*), and division (/), but does not have an operator for exponentiation like some other languages (e.g., Python).
+
+/*

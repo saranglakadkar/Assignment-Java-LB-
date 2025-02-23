@@ -1,0 +1,11 @@
+public class Main { 
+ public static int main(String[] args) { 
+ System.out.println("Hello, World!"); 
+ return 0; 
+ } 
+} 
+
+*/
+Q3. What error do you encounter? Why is void used in the main method?
+answer->we need to use void return type instead of int,jvm doesn't need any return value from it if the main () method had int return type,jvm wouldn't know what to do with that value.
+/*

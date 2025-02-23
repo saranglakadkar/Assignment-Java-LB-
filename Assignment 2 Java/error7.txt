@@ -1,0 +1,14 @@
+public class Main { 
+ public static void main(String[] args) { 
+ int x = "Hello"; 
+ System.out.println(x); 
+ } 
+} 
+
+*/
+Q7. What compilation error do you see? Why does Java enforce type safety?
+answer-> error is incompatible types because we are trying to assign string to an integer variable x.
+1.java is statically typed language. 
+2.java ensure operation are performed on correct data types to reduce unexpected crashes.
+3.java allocates memory based on data types.(e.g. int takes 4bytes).
+/*

@@ -1,0 +1,13 @@
+public class Main { 
+ public static void main(String[] args) { 
+ int[] arr = {1, 2, 3}; 
+ System.out.println(arr[5]); 
+ } 
+} 
+
+*/
+Q11. What runtime exception do you encounter? Why does it occur?
+answer->
+1.Error is: exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 3 at Main.main(Main.java:5).
+2.The array arr has 3 elements (indices 0, 1, 2), but we're trying to access index 5, which is out of bounds.
+/*

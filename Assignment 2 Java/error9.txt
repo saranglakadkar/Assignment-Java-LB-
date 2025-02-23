@@ -1,0 +1,14 @@
+public class Main { 
+ public static void main(String[] args) { 
+ int class = 10; 
+ System.out.println(class); 
+ } 
+}
+
+*/ 
+Q9. What error occurs? Why can't reserved keywords be used as identifiers?
+Answer-> error: identifier expected.
+code will not compile because class is reserved keyword in java.it cannot be used as a variable.
+1.Java reserved keywords are predefined words that have special meanings in the language.
+They cannot be used as variable names, method names, or class names.and to maintain readability.
+/*

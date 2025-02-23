@@ -1,0 +1,23 @@
+public class Main { 
+ public static void main(String[] args) { 
+ double num = "Hello"; 
+ System.out.println(num); 
+ } 
+}
+
+*/
+Q14.What compilation error occurs? Why does Java enforce data type constraints?
+Answer->error: incompatible types: String cannot be converted to double
+double num = "Hello";
+1.The code will not compile due to a type mismatch error. You are trying to assign a String value ("Hello") to a double variable (num), which is incompatible.  
+2.In Java, double is a primitive data type used to represent floating-point numbers.
+3.You cannot assign a String to a double because the types are completely different: double is numerical, used for calculations.String is textual, used to represent words or sentences.
+4.Type Safety
+Java ensures that data of a specific type is handled correctly. If it didn't enforce type constraints, it would be easy to make mistakes, like trying to perform mathematical operations on text or trying to assign text to a numerical variable.
+Prevents Errors at Runtime
+
+By checking types at compile-time, Java can prevent runtime errors that would be much harder to debug if the code was allowed to run with incorrect types.
+Memory Management
+
+Java efficiently manages memory for different data types, and mismatched types could result in unpredictable memory access.   
+/*           

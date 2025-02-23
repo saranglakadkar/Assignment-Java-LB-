@@ -1,0 +1,16 @@
+ public class Main { 
+ public static void main(String[] args) { 
+ System.out.println("Main method with String[] args"); 
+ } 
+ public static void main(int[] args) { 
+ System.out.println("Overloaded main method with int[] args"); 
+ } 
+} 
+
+*/ Q5.Can you have multiple main methods? What do you observe?
+answer-> code compile successfully but run main(Static[] args) because jvm recognizes this method as the entry point.
+ 1.Multiple main() methods are allowed.
+ 2.JVM only calls main(String[] args) automatically.
+ 3.Overloaded main() methods must be called manually inside the program.
+/*
+

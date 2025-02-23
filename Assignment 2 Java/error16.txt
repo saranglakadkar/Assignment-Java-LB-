@@ -1,0 +1,13 @@
+public static void main(String[] args) { 
+ int num = 10; 
+ double result = num / 4; 
+ System.out.println(result); 
+ } 
+} 
+
+*/
+Q16.What is the result of this operation? Is the output what you expected?
+Answer->The result of this operation will be 2.0.
+1.In Java, when an int is divided by another int, the result will be an integer. The fractional part will be truncated (not rounded). So, when 10 is divided by 4, the result is 2 (the decimal part .5 is discarded).
+2.However, since the result variable is of type double, the result is automatically promoted to a double, but the truncated integer value (2) is assigned to the double variable.
+/*

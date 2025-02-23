@@ -1,0 +1,11 @@
+public class Main { 
+ public static void main(String[] args) { 
+ System.out.println("Hello, World!" 
+ } 
+} 
+
+*/
+Q8. What syntax errors are present? How do they affect compilation?
+Answer-> code contain syntax error due to missed closing parenthesis ) and semicolon ; in SOT statement.
+1.java compiler will not generate .class file because it detects incorrect syntax.the program wont run at all.
+/*

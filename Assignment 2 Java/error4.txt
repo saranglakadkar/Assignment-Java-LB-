@@ -1,0 +1,12 @@
+public class Main { 
+ public static void main() { 
+ System.out.println("Hello, World!"); 
+ } 
+} 
+
+*/
+Q4. What happens when you compile and run this code? Why is String[] args needed?
+Answer->1.code compile successfully but doesn't not run because main() method doesn't have parameters.
+2.JVM specifically Searches for public static void main(String[] args).
+If parameters are missing or different, JVM cannot start execution.
+/*

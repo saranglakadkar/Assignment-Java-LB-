@@ -1,0 +1,14 @@
+
+public class Main { 
+ public static void main(String[] args) { 
+ int x = y + 10; 
+ System.out.println(x); 
+ } 
+} 
+
+*/
+Q6.What error occurs? Why must variables be declared?
+Answer-> code is not compile because the variable y is not declared.
+1.Java is a statically typed language so every variable must be declare.
+2.when variable is declared java allocates the memory for it.
+/*

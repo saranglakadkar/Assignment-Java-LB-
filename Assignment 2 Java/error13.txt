@@ -1,0 +1,13 @@
+public class Main { 
+ public static void main(String[] args) { 
+ String str = null; 
+ System.out.println(str.length()); 
+ } 
+} 
+
+*/
+Q13. What exception is thrown? Why does it occur?
+ answer->The code will throw a NullPointerException at runtime.
+1.In the code, the String variable str is initialized to null (it does not point to any actual String object).
+2.When we call str.length(), we're attempting to call a method on a null object reference, which causes a NullPointerException.
+/*

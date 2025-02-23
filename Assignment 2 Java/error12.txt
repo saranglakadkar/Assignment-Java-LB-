@@ -1,0 +1,15 @@
+public class Main { 
+ public static void main(String[] args) { 
+ while (true) { 
+ System.out.println("Infinite Loop"); 
+ } 
+ } 
+} 
+
+
+*/
+Q12. What happens when you run this code? How can you avoid infinite loops?
+Answer-> code run in infinite loop because condition is always true.
+1.Always make sure your loop has a condition that will eventually end.
+2.Use break or increment/decrement logic inside the loop to avoid infinite loops.
+/*

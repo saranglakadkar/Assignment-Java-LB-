@@ -1,0 +1,24 @@
+public static void main(String[] args) { 
+ double score = 85.0; 
+ switch(score) { 
+ case 100: 
+ System.out.println("Perfect score!"); 
+ break; 
+ case 85: 
+ System.out.println("Great job!"); 
+ break; 
+ default: 
+ System.out.println("Keep trying!"); 
+ } 
+ } 
+} 
+
+
+Q. Error to Investigate: Why does this code not compile? What does the error tell you about the 
+types allowed in switch expressions? How can you modify the code to make it work?
+
+->1.The issue in the given code is that the switch expression uses a double type, which is not allowed in Java. The Java switch statement only supports the following types.
+2.error: incompatible types: possible lossy conversion from double to int
+switch(score) {
+       ^
+3.switch does not support double due to precision issues with floating-point numbers.we can use if-else statements when working with floating-point comparisons

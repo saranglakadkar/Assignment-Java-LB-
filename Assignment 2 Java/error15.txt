@@ -1,0 +1,18 @@
+public class Main { 
+ public static void main(String[] args) { 
+ int num1 = 10; 
+ double num2 = 5.5; 
+ int result = num1 + num2; 
+ System.out.println(result); 
+ } 
+} 
+
+*/
+
+Q15.What error occurs when compiling this code? How should you handle different data types in operations?
+answer->error: incompatible types: possible lossy conversion from double to int
+    int result = num1 + num2;
+                           ^
+The code will not compile due to a type mismatch when adding an int and a double. The result of the addition of an int and a double is a double, but you are trying to assign it to an int variable (result).
+1.if we type cast int result to double output is =15.5.
+2.implicit cast for result int(result) num1+num2 = 15

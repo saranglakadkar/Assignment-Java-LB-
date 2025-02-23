@@ -1,0 +1,13 @@
+
+public class Main { 
+ public static void main(String[] args) { 
+ System.out.println("Hello, World") 
+ } 
+} 
+
+
+Q.What syntax error occurs? How does the missing semicolon affect compilation?
+
+->The syntax error in this code is a missing semicolon (;) after System.out.println("Hello, World").
+
+ Java requires each statement to end with a semicolon. Without it, the compiler throws a "; expected" error, preventing compilation

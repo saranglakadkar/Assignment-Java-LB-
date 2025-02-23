@@ -1,0 +1,24 @@
+
+public class Switch { 
+ public static void main(String[] args) { 
+ int number = 5; 
+ switch(number) { 
+ case 5: 
+ System.out.println("Number is 5"); 
+ break; 
+ case 5: 
+ System.out.println("This is another case 5"); 
+ break; 
+ default: 
+ System.out.println("This is the default case"); 
+ } 
+ } 
+} 
+
+
+Q. Error to Investigate: Why does the compiler complain about duplicate case labels? What 
+happens when you have two identical case labels in the same switch block?
+
+-> 1. The compiler throws an error because two case labels have the same value (case 5 appears twice).
+ 2.A switch statement must have unique case labels to determine execution flow. If multiple cases have the same value, the compiler doesn't know which block to execute. Java enforces this rule at compile-time to prevent logical errors.
+3.The program will not compile. The compiler stops execution and reports an error.

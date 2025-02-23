@@ -1,0 +1,12 @@
+ 
+public class Main { 
+ static void main(String[] args) { 
+ System.out.println("Hello, World!"); 
+ } 
+} 
+*/Q2.What happens when you compile and run this code?
+answer:Error-> Main method not found in class Main, please define the main method as:
+   public static void main(String[] args)
+/*
+
+//Because we need to public main method,java didn't find entry point.

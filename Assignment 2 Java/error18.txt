@@ -1,0 +1,20 @@
+public class Main { 
+ public static void main(String[] args) { 
+ int a = 10; 
+ int b = 5; 
+ int result = a + b * 2; 
+ System.out.println(result); 
+ } 
+} 
+
+*/
+Q18. What is the output of this code? How does operator precedence affect the result?
+answer->The output of this code is 20.
+1.Operator Precedence defines the order in which operators are evaluated in an expression. In this case, the multiplication operator (*) takes precedence over the addition operator (+).
+
+Order of Operations:
+
+Multiplication (b * 2), because * has higher precedence than +.
+Then addition (a + 10).
+This is similar to the BODMAS rule (Brackets, Orders, Division/Multiplication, Addition/Subtraction), which dictates the order of operations.
+/*
